@@ -1,0 +1,8 @@
+replicas: 2
+image:
+  repository: myapp/testbackend
+  tag: v2.0.0
+resources:
+  limits:
+    cpu: 20m
+    memory: 512Mi
