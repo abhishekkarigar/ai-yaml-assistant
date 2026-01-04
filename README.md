@@ -29,8 +29,6 @@ OPENAI_API_KEY=your_api_key_here or any open source LLM model works fine (OLLAMA
 
 ⚙️ Design Overview
 
-Pydantic models enforce safe structured output from the LLM.
-
-The script uses a strict system prompt to constrain generation.
-
-YAML paths are validated before mutation to prevent invalid edits.
+1. Pydantic models enforce safe structured output from the LLM.
+2. The script uses a strict system prompt to constrain generation.
+3. YAML paths are validated before mutation to prevent invalid edits.
