@@ -22,7 +22,7 @@ This tool reads a YAML file, asks an LLM for **structured update instructions**,
 > This approach avoids the LLM **rewriting the entire file**, and instead produces deterministic, structured changes.
 
 
-## Prerequisites to run the code
+## 🔨Prerequisites to run the code
 
 OPENAI_API_KEY=your_api_key_here or any open source LLM model works fine (OLLAMA). 
 
